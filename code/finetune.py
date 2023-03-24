@@ -12,7 +12,6 @@ import argparse
 
 def train_epoch(model, dataloader, optimizer, device):
     model.train()
-
     train_loss = 0
     pbar = tqdm(dataloader)
     for batch in pbar:
