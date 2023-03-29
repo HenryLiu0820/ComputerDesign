@@ -80,7 +80,7 @@ def train_model(tr_loader, val_loader, args):
         print(f"[{epoch + 1:03d}/{args.epochs:03d}] Train loss: {train_loss:.6f} | Val loss: {val_loss:.6f} "
               f"Acc: {accuracy:.6f} Precision: {scores[0]:.6f} Recall: {scores[1]:.6f}")
         if accuracy > best_acc:
-            torch.save(model, '/models/' + model_name.split('/')[-1] + '_model.pth')
+            torch.save(model, '/models/' + model_name.split('/')[-1] + '_model.pth', _use_new_zipfile_serialization=False)
             print(f"Best model saved(accuracy: {accuracy})")
             best_acc = accuracy
 
