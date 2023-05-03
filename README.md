@@ -1,4 +1,4 @@
-# ComputerDesign
+# SIU
 
 # File structure
 ```
