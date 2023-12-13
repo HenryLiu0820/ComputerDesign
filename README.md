@@ -1,4 +1,4 @@
-# ComputerDesign
+# SIU
 
 # File structure
 ```
@@ -15,6 +15,8 @@
 │   ├── test.ipynb
 |   ├── utils.py
 ├── data
+├── data_analyze.ipynb
+├── 文档
 └── README.md
 ```
 
